@@ -19,9 +19,9 @@ brain-tumor-detection-system/
 ├── frontend/              # React app for front-end interface
 ├── backend/               # Flask app for handling requests and processing data
 │   ├── app.py             # Main Flask application
-│   ├── model/             # Contains the trained machine learning model
-│   ├── templates/         # HTML templates for rendering pages
-│   └── static/            # Static files (CSS, JS, images)
+│   ├── brainmri.keras           # Contains the trained machine learning model   
+|
+├── templates/         # HTML templates for rendering pages
 ├── notebooks/             # Jupyter notebook with ML model code
 ├── README.md              # Project documentation
 ├── requirements.txt       # Dependencies for the Flask back-end
