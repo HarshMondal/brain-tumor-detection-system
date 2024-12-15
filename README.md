@@ -23,5 +23,6 @@ brain-tumor-detection-system/
 |
 ├── templates/         # HTML templates for rendering pages
 ├── notebooks/             # Jupyter notebook with ML model code
+├── datasets/
 ├── README.md              # Project documentation
 ├── requirements.txt       # Dependencies for the Flask back-end
