@@ -12,6 +12,18 @@ This project is a brain tumor detection system built using machine learning. The
 3. **Image Upload and Detection**: Upload an image to the system, and the model predicts if a brain tumor is present.  
 4. **Generate Report**: The system provides an option to generate a report at the end (report generation feature is not fully designed yet).  
 
+### **Technologies Used**
+**Frontend:** React, JavaScript, HTML, CSS
+**Backend:** Flask, Python
+**Machine Learning:** TensorFlow, Keras
+**Data:** Medical image datasets (MRT scans)
+**Others:** Jupyter Notebook for model development
+
+### **Future Improvements**
+1. Finalize and integrate the report generation feature.
+2. Improve user interface and experience.
+3. Enhance model accuracy by training on a larger dataset.
+
 
 ## **Project Structure**  
 ```plaintext
