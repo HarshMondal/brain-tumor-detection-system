@@ -1,0 +1,24 @@
+.report-container {
+    margin-top: 70px; /* Adjust based on the actual height of your navbar */
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.report-header, .report-footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.report-content {
+    margin: 20px 0;
+}
+
+.report-image {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}

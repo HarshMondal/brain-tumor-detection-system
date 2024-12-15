@@ -1,0 +1,73 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1faee; /* Soothing background color */
+}
+
+.login-card {
+    width: 100%;
+    max-width: 500px; /* Increased width for a better layout */
+    padding: 3rem; /* More padding for better spacing */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+    background: #ffffff; /* Crisp white background */
+}
+
+.login-title {
+    font-size: 2rem; /* Larger font size for title */
+    color: #333;
+    text-align:start; /* Ensuring text is centered */
+    margin-bottom: 40px; /* More space below the title */
+    position: relative;
+    align-content:start;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc; /* Thicker border */
+    border-radius: 8px; /* Rounded corners for input fields */
+    transition: all 0.3s; /* Smooth transition for focus effects */
+}
+
+.form-group input:focus {
+    border-color: #007bff; /* Focus color to match button */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Adding glow effect on focus */
+}
+
+.btn.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Bright primary color */
+    color: white;
+    border-radius: 8px; /* Rounded corners for buttons */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.btn.login-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover for contrast */
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 2rem; /* Adequate spacing after form */
+}
+
+.register-link a {
+    color: #007bff; /* Primary color for consistency */
+    font-weight: bold; /* Making it bold */
+}
+
+.register-link a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+.alert {
+    margin-bottom: 1.5rem; /* More space below the alert */
+    padding: 15px; /* Adequate padding for visibility */
+    border-radius: 8px; /* Rounded corners for alert */
+}

@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f1faee; /* Light, calming background color */
+    font-family: 'Arial', sans-serif; /* Ensures a readable, clean font */
+}
+
+/* Fixed header styling */
+header {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Container for the registration form */
+.register-container {
+    padding-top: 60px; /* Space for the header */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow-y: auto; /* Allows scrolling */
+}
+
+.register-form {
+    width: 100%;
+    max-width: 1000px; /* Increased width for better accommodation */
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+   }
+
+/* Input and select box styling */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Button styling for a consistent look */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #020509;
+}
+
+/* Alert message styling for errors */
+.alert-danger {
+    text-align: center;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.register-card {
+    width: 60%; /* Increase the width to 90% of the container */
+    max-width: 1000px; /* Optionally increase the maximum width */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px auto; /* Center the form horizontally with auto margins */
+}

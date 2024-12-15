@@ -1,0 +1,56 @@
+.container {
+    max-width: 600px; /* Reduce the maximum width for a more centered look */
+    margin: 20px auto; /* Center the container and provide vertical spacing */
+    padding: 20px;
+    background-color: #f8f9fa; /* Soft background color */
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Maintain spacing between cards */
+    border: none; /* Remove borders for a cleaner look */
+}
+
+.card-header {
+    background-color: #5a6268; /* Soft grey for header */
+    color: white;
+    font-size: 1.25rem; /* Larger font size for headers */
+    border-radius: 8px 8px 0 0; /* Rounded corners on top */
+}
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.img-fluid {
+    border-radius: 4px; /* Soft rounded corners for images */
+}
+
+.btn-primary {
+    width: 100%; /* Full-width button for better touch accessibility */
+    background-color: #007bff; /* Primary button color */
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    width: 100%;
+    background-color: #6c757d; /* Secondary button color */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+}

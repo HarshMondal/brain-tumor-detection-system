@@ -1,0 +1,25 @@
+.contact-container {
+    padding: 40px 40;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-icon a {
+    color: #333;
+    font-size: 24px;
+}
+
+.social-icon a:hover {
+    color: #007bff;
+}

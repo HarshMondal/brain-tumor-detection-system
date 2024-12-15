@@ -1,0 +1,48 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #005f73; /* Dark blue-gray */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); /* Lighter border for the toggle button */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+.nav-link {
+    color: #ececec !important; /* Light gray for links */
+}
+.nav-link:hover, .nav-link:focus {
+    color: #ffffff !important; /* White on hover/focus */
+}
+.dropdown-menu {
+    background-color: #334257; /* Darker shade for dropdown */
+    border: none;
+}
+.dropdown-item {
+    color: #CBD2D9;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff;
+    background-color: #1E2A3F;
+}
+
+/* Custom styles for dropdown toggle */
+.navbar .nav-item.dropdown .nav-link {
+    padding-right: 1.5rem; /* Better spacing for dropdown */
+}
+.navbar .nav-item.dropdown .nav-link:after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    color: #CBD2D9;
+}

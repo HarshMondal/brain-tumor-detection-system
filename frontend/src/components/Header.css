@@ -1,0 +1,13 @@
+.main-header {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #005f73;   /* Deep blue-green */
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0;
+}
